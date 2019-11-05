@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.compliments-container {
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border: 1px solid red;
+
+
+}
+
+.insults-container {
+    width: 50%;
+    text-align: center;
+    justify-self: center;
+    align-self: flex-end;
+    border: 1px solid red;
+}
