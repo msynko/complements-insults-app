@@ -4,27 +4,76 @@
     padding: 0;
 }
 
+body {
+    background-color: #e8e7e2;
+}
+
 
 .flex-container {
     display: flex;
     align-items: stretch;
-
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-.compliments-container {
+.compliments {
     width: 50%;
+    padding: 20px;
     text-align: center;
     justify-self: center;
     align-self: center;
-    border: 1px solid red;
 
+    margin: 20px;
+    margin: auto;
+}
+
+
+.complement {
+    padding: 20px;
+    font-size: 20px;
+    color: #2b665e;
 
 }
 
-.insults-container {
+.insults {
+    margin: 20px;
     width: 50%;
+    padding: 20px;
     text-align: center;
     justify-self: center;
     align-self: flex-end;
-    border: 1px solid red;
+
+    margin: 20px auto;
+}
+
+.insult {
+    padding: 20px;
+    font-size: 20px;
+    color: #376657;
+}
+
+button {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+}
+
+button:hover {
+    background-color: #6c7c7c;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
 }
